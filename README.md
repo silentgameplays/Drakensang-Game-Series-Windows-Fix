@@ -13,7 +13,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 4. Right click in Steam Properties> General> Launch Options 
 
-5. # Add this line -autoconfig -windowed -noborder
+5. Add this line -autoconfig -windowed -noborder
 
 6. Launch Drakensang 
 
@@ -29,7 +29,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 12. Right click in Steam Properties> General> Launch Options 
 
-13. # Add this line: -autoconfig -windowed -noborder
+13. Add this line: -autoconfig -windowed -noborder
 
 14. Launch Drakensang: The River Of Time, if all is good there should be no "Nebula error"
 
@@ -41,7 +41,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 18. Right click in Steam Properties> General> Launch Options 
 
-19. # Add this line: -autoconfig -windowed -noborder
+19. Add this line: -autoconfig -windowed -noborder
 
 20. Launch Drakensang 2: PhIlleassons Secret if all is good there should be no "Nebula error"
 
@@ -57,7 +57,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 *  -d3d9 -windowed -noborder
 
-# But if it results in Nebula errors pilng up switch the launch settings back to -autoconfig -windowed -noborder
+# But if it results in Nebula errors piling up then switch the launch settings back to -autoconfig -windowed -noborder
 
 # NB2!: In some cases some files for all three games fail to download properly,to fix this issue
 
@@ -65,7 +65,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 2. Repeat all the previous steps with -autoconfig -windowed -noborder
 
-# NB3!: You can exit Borderless Gaming after each of your gaming sessions in any game,they all use the same Drakensang engine and this needs to be added once.
+# NB3!: You can exit Borderless Gaming after each of your gaming sessions in any game, they all use the same Drakensang engine and this needs to be added once.
 
 # Ok,everything should be good, happy gaming.
 # silentgamepls
