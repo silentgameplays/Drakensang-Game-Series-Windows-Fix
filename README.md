@@ -64,7 +64,14 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 1. Go to Steam Properties> Local Files> Verify integrity of game files for each game and click on the "Verify integrity of game files"
 
 2. Repeat all the previous steps with -autoconfig -windowed -noborder
-
+# On Windows 11 additional steps are required for Drakensang The River Of Time and PhIlleassons Secret:
+1. Go into the game folder C:\Program Files (x86)\Steam\steamapps\common\Drakensang The River of Time\redist
+2. And install all the exe's you see there,repair if you have vcredist_x86 2008 and install DirectX 9
+3. Try launching the game,if it fails for both games,go to the  Steam Properties> General> Installed Files
+4. Verify the files
+5. Launch each game again,until it is running,make sure that Drakensang is in the  Favorites in the Borderless Gaming application
+6. Enjoy the game
+   
 # NB3!: You can exit Borderless Gaming after each of your gaming sessions in any game, they all use the same Drakensang engine and this needs to be added once.
 
 # Ok,everything should be good, happy gaming.
