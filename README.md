@@ -1,78 +1,42 @@
 # Drakensang-Game-Series-Windows-Fix
-Drakensang, Drakensang The River Of Time, Drakensang 2: PhIlleassons Secret Series Windows 10/11 Fix
+Drakensang, Drakensang The River Of Time, Drakensang 2: PhIlleassons Secret Series Windows 10/11 Fix With Higher 2k/4k resolution support
 
 0. Go to Control Panel>Programs>Programs and Features>Turn Windows Features on or off>Legacy Components>Enable Direct Play .NET 3.5 Framework support and just in case install DirectX 9.0c:
 
 https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
-1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
+1. Install Drakensang/Drakensang:The river Of Time/Drakensang 2: PhIlleassons Secret 
 
-2. Install Borderless Gaming from this repository
+2. Got To Steam> Properties> General for each game 
 
-3. Fix Drakensang first
+3. Add -windowed
 
-4. Right click in Steam Properties> General> Launch Options 
+4. Launch every game once and set resolution to 1920x1080 then exit
 
-5. Add this line -autoconfig -windowed -noborder
+5. Download and extract files from this repo from the folder Drakensang and Drakensang The River Of Time, Drakensang 2: PhIlleassons Secret 
 
-6. Launch Drakensang 
+6. Put ``d3d9.dll`` ``dxwrapper.dll`` ``dxwrapper.ini`` into ``C:\Program Files (x86)\Steam\steamapps\common\Drakensang`` and ``C:\Program Files (x86)\Steam\steamapps\common\Drakensang The River of Time``
 
-7. Launch Borderless Gaming
+7. Go into your ``C:\Users\User\Documents\Drakensang\profiles\default`` for Drakensang ``C:\Users\User\Documents\Drakensang_TRoT\profiles\default`` for TROT and Drakensang 2: PhIlleassons Secret
 
-8. Configure Video Options in Drakensang 
+8. Edit ``profile.xml`` file and replace the ``Profile Width="1920" Height="1080"`` with your desired resolution like ``Profile Width="2560" Height="1440"`` for 2k or  ``Profile Width="3840" Height="2160"`` for 4k
 
-9. In Borderless Gaming app add Drakensang from the section Applications to Favorites.
+9. Launch the games again
 
-10. Exit Drakensang,leave borderless gaming running.
-
-11. Fix Drakensang:The River Of Time
-
-12. Right click in Steam Properties> General> Launch Options 
-
-13. Add this line: -autoconfig -windowed -noborder
-
-14. Launch Drakensang: The River Of Time, if all is good there should be no "Nebula error"
-
-15. Configure Video Options in Drakensang The River Of Time
-
-16. Exit Drakensang The River Of Time
-
-17. Fix Drakensang 2: PhIlleassons Secret last
-
-18. Right click in Steam Properties> General> Launch Options 
-
-19. Add this line: -autoconfig -windowed -noborder
-
-20. Launch Drakensang 2: PhIlleassons Secret if all is good there should be no "Nebula error"
-
-21. Configure Video Options in Drakensang 2: PhIlleassons Secret
-
-# For the most cases it should solve the issues on Win10/11
-
-# NB!: In rare cases instead of 
-
-* -autoconfig -windowed -noborder 
-
-* # You can use 
-
-*  -d3d9 -windowed -noborder
-
-# But if it results in Nebula errors piling up then switch the launch settings back to -autoconfig -windowed -noborder
+# If it results in Nebula errors piling up then switch the launch settings back to -autoconfig -windowed -noborder
 
 # NB2!: In some cases some files for all three games fail to download properly,to fix this issue
 
 1. Go to Steam Properties> Local Files> Verify integrity of game files for each game and click on the "Verify integrity of game files"
 
-2. Repeat all the previous steps with -autoconfig -windowed -noborder
 # On Windows 11 additional steps are required for Drakensang The River Of Time and PhIlleassons Secret:
 1. Go into the game folder C:\Program Files (x86)\Steam\steamapps\common\Drakensang The River of Time\redist
 2. And install all the exe's you see there,repair if you have vcredist_x86 2008 and install DirectX 9
 3. Try launching the game,if it fails for both games,go to the  Steam Properties> General> Installed Files
 4. Verify the files
-5. Launch each game again,until it is running,make sure that Drakensang is in the  Favorites in the Borderless Gaming application
+5. Launch each game again,until they are all running at your desired resolutions.
 6. Enjoy the game
-   
-# NB3!: You can exit Borderless Gaming after each of your gaming sessions in any game, they all use the same Drakensang engine and this needs to be added once.
+
 # Drakensang-Game-Series-Linux-Fix
 1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
 2. For all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
@@ -94,7 +58,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 18. When everything is done launch each game, it should work now 
 
 # Ok,everything should be good, happy gaming.
-# silentgamepls
+# silentgameplays
 
 
 
