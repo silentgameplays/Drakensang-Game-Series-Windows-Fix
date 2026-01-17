@@ -13,7 +13,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 4. Launch every game once and set resolution to 1920x1080 then exit
 
-5. Download and extract files from this repo from the folder Drakensang and Drakensang The River Of Time, Drakensang 2: PhIlleassons Secret 
+5. Download and extract files from this repo 
 
 6. Put ``d3d9.dll`` ``dxwrapper.dll`` ``dxwrapper.ini`` into ``C:\Program Files (x86)\Steam\steamapps\common\Drakensang`` and ``C:\Program Files (x86)\Steam\steamapps\common\Drakensang The River of Time``
 
