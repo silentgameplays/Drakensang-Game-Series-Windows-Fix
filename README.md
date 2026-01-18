@@ -7,7 +7,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 1. Install Drakensang/Drakensang:The river Of Time/Drakensang 2: PhIlleassons Secret 
 
-2. Got To Steam> Properties> General for each game 
+2. Go To Steam> Properties> General for each game 
 
 3. Add -windowed
 
@@ -36,6 +36,21 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 4. Verify the files
 5. Launch each game again,until they are all running at your desired resolutions.
 6. Enjoy the game
+
+# NB3! If all else fails ,especially for Drakensang Steam Version(GoG version works without any tinkering) then use the Borderless Gaming from this repo:
+
+1. Install Drakensang
+
+2. Go To Steam> Properties> General
+
+3. Set parameters to  -autoconfig -windowed -noborder
+
+4. Install and launch Borderless Gaming
+
+5. Add Drakensang to Borderless Gaming App:
+![Drakensang Borderless Gaming](https://github.com/user-attachments/assets/d91af7eb-13b0-47d4-968e-0bf9d9207bb8)
+
+6. Enjoy the game.
 
 # Drakensang-Game-Series-Linux-Fix
 1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
