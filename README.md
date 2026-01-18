@@ -43,7 +43,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 2. Go To Steam> Properties> General
 
-3. Set parameters to  -autoconfig -windowed -noborder
+3. Set parameters to ``-autoconfig -windowed -noborder``
 
 4. Install and launch Borderless Gaming
 
