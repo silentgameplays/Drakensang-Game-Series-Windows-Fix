@@ -23,7 +23,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 9. Launch the games again
 
-# If it results in Nebula errors piling up then switch the launch settings back to -autoconfig -windowed -noborder
+# If it results in Nebula errors piling up then switch the launch settings back to -autoconfig -windowed -noborder and use the Borderless Gaming App
 
 # NB2!: In some cases some files for all three games fail to download properly,to fix this issue
 
@@ -52,6 +52,8 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 * ![Drakensang Borderless Gaming](https://github.com/user-attachments/assets/d91af7eb-13b0-47d4-968e-0bf9d9207bb8)
 
 7. Enjoy the game.
+
+# NB Every time all the games are uninstalled it's recommended to delete the User Profile Folders located in ``C:\Users\User\Documents\Drakensang\`` for Drakensang ``C:\Users\User\Documents\Drakensang_TRoT\`
 
 # Drakensang-Game-Series-Linux-Fix
 1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
