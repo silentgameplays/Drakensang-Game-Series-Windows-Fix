@@ -48,9 +48,10 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 4. Install and launch Borderless Gaming
 
 5. Add Drakensang to Borderless Gaming App:
-![Drakensang Borderless Gaming](https://github.com/user-attachments/assets/d91af7eb-13b0-47d4-968e-0bf9d9207bb8)
+   
+* ![Drakensang Borderless Gaming](https://github.com/user-attachments/assets/d91af7eb-13b0-47d4-968e-0bf9d9207bb8)
 
-6. Enjoy the game.
+7. Enjoy the game.
 
 # Drakensang-Game-Series-Linux-Fix
 1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
