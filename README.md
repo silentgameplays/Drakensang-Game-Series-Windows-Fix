@@ -53,7 +53,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 7. Enjoy the game.
 
-# NB Every time all the games are uninstalled it's recommended to delete the User Profile Folders located in ``C:\Users\User\Documents\Drakensang\`` for Drakensang ``C:\Users\User\Documents\Drakensang_TRoT\``
+# NB Every time all the games are uninstalled it's recommended to delete the User Profile Folders located in ``C:\Users\User\Documents\Drakensang\`` for Drakensang ``C:\Users\User\Documents\Drakensang_TRoT\`` for River Of Time
 
 # Drakensang-Game-Series-Linux-Fix
 1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
