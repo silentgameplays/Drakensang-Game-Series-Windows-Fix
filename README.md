@@ -9,7 +9,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 2. Go To Steam> Properties> General for each game 
 
-3. Add -windowed
+3. Add ``-windowed``
 
 4. Launch every game once and set resolution to 1920x1080 then exit
 
