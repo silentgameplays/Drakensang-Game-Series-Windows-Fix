@@ -98,6 +98,7 @@ Run all of the the games once and set resolution to 1080p
 
 **NB! Drakensang can be launched with intro video now after it has been launched once with
 -novideo parameter in the Steam Properties> General> Launch Options and no additional arguments on latest Proton 9.0-4 version.**
+**Thank you to elishacloud for the dxwrapper for Windows versions,check his work here https://github.com/elishacloud/dxwrapper**
 
 # Ok,everything should be good, happy gaming.
 # silentgameplays
