@@ -71,7 +71,11 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 
 ``MANGOHUD_CONFIG="fps_limit=60,no_display" mangohud %command%``
 
-Run all of the the games once and set resolution to 1080p
+**On older 9.04 Proton versions(and older) it's still possible to use DXVK FPS Limiter, which is more smooth than the mangohud limiter, which can lead to stutters and minor texture flickers.**
+
+``DXVK_FRAME_RATE=60 %command%``
+
+* Run all of the the games once and set resolution to 1920x1080
 
 7. Change to 2k/4 resolutions by going into these folders on Linux:
 
