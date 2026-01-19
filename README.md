@@ -56,24 +56,48 @@ https://www.microsoft.com/en-us/download/details.aspx?id=8109
 # NB Every time all the games are uninstalled it's recommended to delete the User Profile Folders located in ``C:\Users\User\Documents\Drakensang\`` for Drakensang ``C:\Users\User\Documents\Drakensang_TRoT\`` for River Of Time
 
 # Drakensang-Game-Series-Linux-Fix
+
 1. Install all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
+
 2. For all three games Drakensang, Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
-3. Right click in Steam Properties> General> Compatibility>Force the use of a Specific Steam Play Compatibility Tool>
-4. Select and Install Proton Version 6.3.8 for all three games
-5. Right click in Steam Properties> General> Launch Options
-6. For all three games add this line PROTON_FORCE_LARGE_ADDRESS_AWARE=1
-7. For Drakensang: The River Of Time
-8. Go to /home/user/.local/share/Steam/steamapps/common/Drakensang The River of Time/redist/directx
-9. Find DXSETUP.exe and run it,install directX
-10. Repeat for  Drakensang 2:PhIlleassons Secret
-11. Go to /home/user/.local/share/Steam/steamapps/common/Drakensang The River of Time/redist/directx
-12. Find DXSETUP.exe and run it,install directX
-13. Go to /home/user/.local/share/Steam/steamapps/common/Drakensang The River of Time/redist/
-14. Install vcredist_x86.exe
-15. For each of the games  Drakensang The River Of Time, Drakensang 2:PhIlleassons Secret
-16. Go to the Steam Properties> General> Installed Files
-17. Verify integrity of the game files
-18. When everything is done launch each game, it should work now 
+
+3. Right click in Steam Properties> General> Compatibility>Force the use of a Specific Steam Play Compatibility Tool
+
+4. Currently all three games work with 9.0-4 Proton version even the cut scenes are playable
+
+5. Right click in ``Steam Properties> General> Launch Options``
+
+6. To restore default movement speed to characters in all games, mostly Drakensang limit the FPS to 60
+
+``MANGOHUD_CONFIG="fps_limit=60,no_display" mangohud %command%``
+
+Run all of the the games once and set resolution to 1080p
+
+7. Change to 2k/4 resolutions by going into these folders on Linux:
+
+**Drakensang**
+
+`` /home/user/.steam/steam/steamapps/compatdata/12640/pfx/drive_c/users/steamuser/My Documents/Drakensang/profiles/default``
+
+**Drakensang The river Of Time**
+
+``/home/user/.steam/steam/steamapps/compatdata/33770/pfx/drive_c/users/steamuser/My Documents/Drakensang_TRoT/profiles/default``
+
+**Drakensang 2 -Phileasson's Secret**
+
+``/home/user/.steam/steam/steamapps/compatdata/33780/pfx/drive_c/users/steamuser/My Documents/Drakensang_TRoT/profiles/default``
+
+8. Edit **profile.xml** file and replace
+* ``Profile Width="1920" Height="1080"``
+
+**With your desired resolution like**
+
+*  ``Profile Width="2560" Height="1440" ``for 2k
+*  ``Profile Width="3840" Height="2160"`` for 4k for each game on Linux
+
+
+**NB! Drakensang can be launched with intro video now after it has been launched once with
+-novideo parameter in the Steam Properties> General> Launch Options and no additional arguments on latest Proton 9.0-4 version.**
 
 # Ok,everything should be good, happy gaming.
 # silentgameplays
